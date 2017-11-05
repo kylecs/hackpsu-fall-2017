@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity{
             globalApp.createAddress();
 
         } catch(Exception e) {
-            Log.d("Fuck: ", e.toString());
+            Log.d("Oh noes: ", e.toString());
         }
     }
 

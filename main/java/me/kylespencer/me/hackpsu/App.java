@@ -117,7 +117,7 @@ public class App extends Application{
             address = addressParsed;
 
         } catch(Exception e) {
-            Log.d("Fuck: ", e.toString());
+            Log.d("bad: ", e.toString());
         }
     }
 
@@ -142,7 +142,7 @@ public class App extends Application{
 
 
         } catch(Exception e) {
-            Log.d("Fuck: ", e.toString());
+            Log.d("Error: ", e.toString());
         }
     }
 
@@ -175,7 +175,7 @@ public class App extends Application{
 
 
         } catch(Exception e) {
-            Log.d("Fuck: ", e.toString());
+            Log.d("Bad: ", e.toString());
         }
     }
 
