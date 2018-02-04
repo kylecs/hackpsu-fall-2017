@@ -2,7 +2,7 @@
 Krypt is the submission to HackPSU Fall 2017 by Kyle Spencer, Keegan Harris, Nick Brougher, and Rachel Cooper. This was developed completely in under 24 hours. This app won 3rd place out of 64 final submissions. 
 
 ## What is it?
-Krypt is an Android all written in Java that allows two people with coinbase accounts to exchange Bitcoin just by touching phones together. There is no need to manually send an address or a username. To use the app, you must link your coinbase account, click send or recieve, then touch phones with someone else who has chosen the opposite option. At this point, the person who selected send will be asked to enter an amount of Bitcoin to send and will recieve a two factor authentication code from Coinbase. You enter this information, click send, and the bitcoins are transferred immediately.
+Krypt is an Android app written in Java that allows two people with coinbase accounts to exchange Bitcoin just by touching phones together. There is no need to manually send an address or a username. To use the app, you must link your coinbase account, click send or recieve, then touch phones with someone else who has chosen the opposite option. At this point, the person who selected send will be asked to enter an amount of Bitcoin to send and will recieve a two factor authentication code from Coinbase. You enter this information, click send, and the bitcoins are transferred immediately.
 
 ## How does it work?
 We interfaced our app with the Coinbase API via an OAuth2 key. When the users are ready to transfer funds, they hold the phones together and an NFC transfer sends a generated recieving address from the phone that clicked recieve to the other. The sending phone then asked Coinbase for a two factor authentication code. When the user clicked send, the two factor authentication code was then used to authenticate the transfer of Bitcoin to the Coinbase API.
@@ -23,4 +23,4 @@ There were several things that we could improve.
 * I would have slept for a few hours. At around 6am I was working very slowly, I feel that a few hours of sleep would have saved time overall.              
 
 ## Conclusion
-This was my first hackathon and it feels really good to have gotten top 3. This was by far the longest I have ever focused on a single task, and it was nice to be rewarded for my efforts. It is a great feeling to give all your effort to a singular purpose and not stop until it works. The feeling when that first transaction was one of the greatest I have ever had.
+This was my first hackathon and it feels really good to have gotten top 3. This was by far the longest I have ever focused on a single task, and it was nice to be rewarded for my efforts. It is a great feeling to give all your effort to a singular purpose and not stop until it works. The feeling when that first transaction worked was one of the greatest I have ever had.
